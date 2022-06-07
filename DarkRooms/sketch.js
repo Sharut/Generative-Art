@@ -1,5 +1,5 @@
-let nrows = 9;
-let ncols = 8;
+let nrows;
+let ncols;
 let WIDTH;
 let HEIGHT;
 let maxwidth ;
@@ -10,15 +10,22 @@ var num=0;
 function setup() {
   WIDTH = windowWidth;
   HEIGHT = windowHeight;
-  maxwidth = (WIDTH - 10 * (nrows+1))/nrows;
-  maxheight = (HEIGHT - 10 * (ncols+1))/ncols;
+  print(WIDTH, HEIGHT)
+  // maxwidth = (WIDTH - 10 * (nro/ols+1))/ncols;
+  maxwidth = 90;
+  maxheight = 90;
+  nrows = int((WIDTH - 10)/(maxwidth+10))+1;
+  ncols = int((HEIGHT - 10)/(maxheight+10))+1;
+  print(ncols, nrows)
   createCanvas(WIDTH, HEIGHT);
   background(0);
   fill(0);
   down = 0;
   for(let i=0;i<ncols;i++){
+    
     right = 0;
     for(let j=0;j<nrows;j++){
+      print(i,j,down, right)
       num = int(random(0, 7));
       hole_num = int(random(0, 7));
       my_rect(right+10,down+10,maxwidth,maxheight, num, hole_num); 
