@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Personal Webpage" />
+        <meta name="author" content="Sharut Gupta" />
+        <title>Sharut Gupta</title>
+        
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <!-- <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script> -->
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;display=swap" rel="stylesheet">
+
+        <link href="popup.html" rel="import" />
+
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+        <link href="css/artGalleyStyles.css" rel="stylesheet" />
+
+    </head>
+    <body>
+      
+            <!-- Interests-->
+            <section class="resume-section p-3 p-lg-5 flex-column" id="genart">
+                <div class="resume-section-content">
+                  <h2 class="mtt-5">
+                        Generative
+                        <span class="text-primary">Art</span>
+                    </h2>
+
+                  <h3 class="mb-5" style="color:#6c757d;"> Sharut Gupta </h3>
+
+                    <!-- <hr style="width:100%", size="3", color=gray>   -->
+ 
+
+                  <!-- <h2 class="mb-5  mtt-5">Creative Coding</h2> -->
+                
+                Disclaimer: I’m a novice to generative art, and I’m still finding my feet. But I think I’m learning and having fun. In case you find something cool and interesting, or are looking forward to collaborating, please feel free to get in touch with me! It would really mean a lot :) <br><br>
+                Here are a few of my attempts at generative art using <a target="_blank" href="https://p5js.org">p5js</a>.
+
+
+                </div>
+
+<!-- <div class="main"> -->
+  <ul class="gencards">
+<!--    ###########  A good template too  ############ -->
+<!--  <li class="gencards_item" id='#Scenery'>
+        <div class="gencard">
+          <div class="genartcontainer">
+             <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/Scenery.png" alt="Scenery">
+             <i class="far fa-arrow-alt-circle-right" style="font-size:1.7rem; "></i>
+          </div>
+          <div class="gencard_content">
+              <h2 class="gencard_title">A Scenic Paradise</h2>
+          </div>
+        </div>
+      </li> -->
+
+    <li class="gencards_item" id='#3DTiles'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DTiles.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/3D_Tiling/3D_Tiling.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">3D Tiling</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#3DLossPeaks'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DLossPeaks.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/3D_LossPeaks/3D_LossPeaks.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Approaching the minima</h2>  
+     </div>
+    </li>
+
+    <li class="gencards_item" id='#3DBoxes'>
+
+      <div class="gencard h-100" >
+        <div class="fullwrap">
+              <div id="3DBoxes_carousel" class="carousel slide"  data-interval="2000" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#3DBoxes_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#3DBoxes_carousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner collection-slider-image_wrapper " role="listbox">
+                  <div class="item active">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DBoxes1.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DBoxes2.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="fullcap">
+                  <a target="_blank" href="https://sharut.github.io/Generative-Art/3DBoxes/3DBoxes.html">
+                    <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+                  </a>
+              </div>
+        </div>
+        <h2 class="gencard_title">Cohesion</h2>  
+      </div>
+    </li>
+
+
+    <li class="gencards_item" id='#FlowerGarden'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/FlowerGarden.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/DahliaGarden/DahliaGarden.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Dahlia</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#3DLigthSphere'>
+
+      <div class="gencard h-100" >
+        <div class="fullwrap">
+              <div id="3DLigthSphere_carousel" class="carousel slide"  data-interval="2000" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#3DLigthSphere_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#3DLigthSphere_carousel" data-slide-to="1"></li>
+                  <!-- <li data-target="#3DLigthSphere_carousel" data-slide-to="2"></li> -->
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner collection-slider-image_wrapper " role="listbox">
+                  <div class="item active">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DLigthSphere1.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <!-- <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DLigthSphere2.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div> -->
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DLigthSphere3.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+              <div class="fullcap">
+                  <a target="_blank" href="https://sharut.github.io/Generative-Art/3DLigthSphere/3DLigthSphere.html">
+                    <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+                  </a>
+              </div>
+        </div>
+        <h2 class="gencard_title">Magma</h2>  
+      </div>
+    </li>
+
+    <li class="gencards_item" id='#Diwali_Chakkri'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <video class="gend-block card-img-top" src="./assets/img/genart/Diwali_Chakkri.mov" autoplay muted loop></video>
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/Diwali_Chakkri/Diwali_Chakkri.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Fire Crackers'</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#SkyIsPink'>
+
+      <div class="gencard h-100" >
+        <div class="fullwrap">
+              <div id="SkyIsPink_carousel" class="carousel slide"  data-interval="2000" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#SkyIsPink_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#SkyIsPink_carousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner collection-slider-image_wrapper " role="listbox">
+                  <div class="item active">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/SkyIsPink1.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/SkyIsPink2.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="fullcap">
+                  <a target="_blank" href="https://sharut.github.io/Generative-Art/Sky_is_Pink/Sky_is_Pink.html">
+                    <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+                  </a>
+              </div>
+        </div>
+        <h2 class="gencard_title">The Sky is Pink</h2>  
+      </div>
+    </li>
+
+
+    <li class="gencards_item" id='#GeometricScenery'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/GeometricScenery.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/Geometric_Scenery/Geometric_Scenery.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Geometric Sunset</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#UlamSpiral'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/UlamSpiral.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/UlamSpiral/UlamSpiral.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Ulam Spiral</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#SpiralBeauty'>
+
+      <div class="gencard h-100" >
+        <div class="fullwrap">
+              <div id="SpiralBeauty_carousel" class="carousel slide"  data-interval="2000" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#SpiralBeauty_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#SpiralBeauty_carousel" data-slide-to="1"></li>
+                  <li data-target="#SpiralBeauty_carousel" data-slide-to="2"></li>
+                  <li data-target="#SpiralBeauty_carousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner collection-slider-image_wrapper " role="listbox">
+                  <div class="item active">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/SpiralBeauty1.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/SpiralBeauty2.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/SpiralBeauty3.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/SpiralBeauty4.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="fullcap">
+                  <a target="_blank" href="https://sharut.github.io/Generative-Art/SpiralBeauty/SpiralBeauty.html">
+                    <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+                  </a>
+              </div>
+        </div>
+        <h2 class="gencard_title">Spiralling Around</h2>  
+      </div>
+    </li>
+
+    <li class="gencards_item" id='#AbstractTile'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/AbstractTile.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/Decoration_props_I/Decoration_props_I.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Entangled</h2>  
+     </div>
+    </li>
+
+    
+    <li class="gencards_item" id='#Recursion_tree'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/RecursionTree.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/Recursion_tree/Recursion_tree.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Recursion Tree</h2>  
+     </div>
+    </li>
+
+    <li class="gencards_item" id='#Lost_in_Thought'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/Lost_in_Thought.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/Lost_in_Thought/Lost_in_Thought.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Lost in Thought</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#AbstractCircle'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/AbstractCircle.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/Decoration_props_II/Decoration_props_II.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Upside Down</h2>  
+     </div>
+    </li>
+
+
+    
+    <li class="gencards_item" id='#Scenery'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img class="gend-block genw-100 card-img-top" src="./assets/img/genart/Scenery.png" alt="Scenery">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/Scenery/Scenery.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">A Scenic Paradise</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#FlowField'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <video class="gend-block card-img-top" src="./assets/img/genart/FlowField2.mov" autoplay muted loop></video>
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/FlowField/FlowField.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Craters' On The Moon</h2>  
+     </div>
+    </li>
+
+
+
+
+    <li class="gencards_item" id='#Abstract_women_perlin'>
+
+      <div class="gencard h-100" >
+        <div class="fullwrap">
+              <div id="Abstract_women_perlin_carousel" class="carousel slide"  data-interval="2000" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#Abstract_women_perlin_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#Abstract_women_perlin_carousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner collection-slider-image_wrapper " role="listbox">
+                  <div class="item active">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/LadyBeauty1.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/LadyBeauty2.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="fullcap">
+                  <a target="_blank" href="https://sharut.github.io/Generative-Art/Abstract_women_perlin/Abstract_women_perlin.html">
+                    <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+                  </a>
+              </div>
+        </div>
+        <h2 class="gencard_title">Women Empowerment</h2>  
+      </div>
+    </li>
+
+
+    <li class="gencards_item" id='#Tesseract'>
+
+      <div class="gencard h-100" >
+        <div class="fullwrap">
+              <div id="tesseract_carousel" class="carousel slide"  data-interval="2000" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#tesseract_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#tesseract_carousel" data-slide-to="1"></li>
+                  <li data-target="#tesseract_carousel" data-slide-to="2"></li>
+                  <li data-target="#tesseract_carousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner collection-slider-image_wrapper " role="listbox">
+                  <div class="item active">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/tesseract1.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/tesseract2.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/tesseract3.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div> 
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/tesseract4.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div> 
+                </div>
+              </div>
+
+              <div class="fullcap">
+                  <a target="_blank" href="https://sharut.github.io/Generative-Art/Tesseract/Tesseract.html">
+                    <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+                  </a>
+              </div>
+        </div>
+        <h2 class="gencard_title">Tesseract</h2>  
+      </div>
+    </li>
+
+    <li class="gencards_item" id='#3DLoops'>
+
+      <div class="gencard h-100" >
+        <div class="fullwrap">
+              <div id="3DLoops_carousel" class="carousel slide"  data-interval="2000" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#3DLoops_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#3DLoops_carousel" data-slide-to="1"></li>
+                  <li data-target="#3DLoops_carousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner collection-slider-image_wrapper " role="listbox">
+                  <div class="item active">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DLoops1.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DLoops2.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/3DLoops3.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="fullcap">
+                  <a target="_blank" href="https://sharut.github.io/Generative-Art/3DLoops/3DLoops.html">
+                    <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+                  </a>
+              </div>
+        </div>
+        <h2 class="gencard_title">Deformed Pretzels</h2>  
+      </div>
+    </li>
+
+    <li class="gencards_item" id='#LossLandscape'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <video class="gend-block card-img-top" src="./assets/img/genart/LossLandscape.mov" autoplay muted loop></video>
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/LossLandscape/LossLandscape.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">LossLandscape</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#ShapeTiling'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/ShapeTiling1.png">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/ShapeTiling/ShapeTiling.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">A Silent Pandemic</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#CubicBeauty'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/CubicBeauty1.png">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/CubicBeauty/CubicBeauty.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Cubic Beauty</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#AlgalBloom'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <video class="gend-block card-img-top" src="./assets/img/genart/AlgalBloom.mov" autoplay muted loop></video>
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/AlgalBloom/AlgalBloom.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem;"></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Algal Bloom</h2>  
+     </div>
+    </li>
+
+
+    <li class="gencards_item" id='#DarkRooms'>
+
+      <div class="gencard h-100" >
+        <div class="fullwrap">
+              <div id="DarkRooms_carousel" class="carousel slide"  data-interval="2000" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#DarkRooms_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#DarkRooms_carousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner collection-slider-image_wrapper " role="listbox">
+                  <div class="item active">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/DarkRooms1.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/DarkRooms2.png">
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="fullcap">
+                  <a target="_blank" href="https://sharut.github.io/Generative-Art/DarkRooms/darkrooms.html">
+                    <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+                  </a>
+              </div>
+        </div>
+        <h2 class="gencard_title">Dark Rooms</h2>  
+      </div>
+    </li>
+
+
+    <li class="gencards_item" id='#randomwalk'>
+      <div class="gencard">
+        <div class="fullwrap">
+         <img  class="gend-block genw-100 card-img-top" src="./assets/img/genart/random_walk_img.png">
+         <div class="fullcap">
+            <a target="_blank" href="https://sharut.github.io/Generative-Art/RandomWalk/RandomWalk.html">
+              <i class="far fa-arrow-alt-circle-right" style="font-size:5.7rem; "></i>
+            </a>
+         </div>
+       </div>
+       <h2 class="gencard_title">Random Walk</h2>  
+     </div>
+    </li>
+
+
+
+ 
+
+
+
+    
+
+
+
+
+    </ul>
+<!-- </div> -->
+
+
+              <!-- #Section end -->
+              
+              </section>
+
+
+
+
+
+    </body>
+</html>
